@@ -50,12 +50,16 @@ After writing the code follow these steps:
 
 To initialize the environment
 #terraform init
+
 Lists the infrastructure to create
 #terraform plan
+
 Will automatically create our infrastructure in the specified region.
 #terraform apply
+
 #ls - lrt
 we can see the terraform statefile – it is the brain or memory of the terraform.
+
 #cat terraform.tfstate
 
 Terraform is immutable – means if you do some changes in the code and runs the code it will delete the existing infrastructure and create the new infrastructure. It won’t edit in existing infrastructure.
